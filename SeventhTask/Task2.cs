@@ -39,7 +39,6 @@ namespace SeventhTask
         /// <summary>
         /// Test where we try to GET the post that we POSTed earlier and checking that it really is our post.
         /// </summary>
-
         [Test]
         [Order(1)]
         public void GET_CreatedPOSTItem()
@@ -59,7 +58,6 @@ namespace SeventhTask
         /// Test where we try to DELETE the post that we POSTed earlier and checking that it really was deleted
         /// with getting HTTP Status Code of response.
         /// </summary>
-        /// 
         [Test]
         [Order(2)]
         public void DELETE_CreatedPOSTItem()
